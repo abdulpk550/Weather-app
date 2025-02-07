@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.weather{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,214,220,1) 0%, rgba(88,93,173,1) 0%, rgba(164,230,243,1) 100%);
+    padding: 30px 30px;
+    border-radius: 30px;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+.input-box{
+    padding: 5px 20px;
+    width: 79%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.btn{
+    border-radius: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    
+   
+}
+.btn img{
+    width: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+.warning{
+    margin-top:20px ;
+    text-align:center;
+    color: white;
+    letter-spacing: 3px;
+    display: none;
+}
+.correct{
+    margin-top:20px ;
+    text-align:center;
+    color: white;
+    letter-spacing: 3px;
+    display: none;
+}
+.city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+.city img{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.temp{
+    color: white;
+    font-family: serif;
+}
+.feel{
+  color: white;
+  font-weight: lighter;
+}
+.City{
+    margin-top: 10px;
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+.speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.speed img{
+    width: 50px;
+}
+.speed p{
+    margin: 5px 5px;
+    color: white;
+}
